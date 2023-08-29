@@ -14,6 +14,8 @@
 2. git commit -m "text"
 3. git push origin main
 4. git status
+5. git log
+6. git remote -v
 
 ### Creating virtual environment:
 Creating conda environment
@@ -32,4 +34,30 @@ conda activate venv
 pip install -r requirements.txt
 ```
 
-### add the venv/ in .gitignore file
+#### Note: add the venv/ in .gitignore file
+
+### BUILD DOCKER IMAGE
+```
+docker build -t <image_name>:<tagname> .
+```
+> Note: Image name for docker must be lowercase
+
+
+To list docker image
+```
+docker images
+```
+
+Run docker image
+```
+docker run -p 5000:5000 -e PORT=5000 f8c749e73678
+```
+
+To check running container in docker
+```
+docker ps
+```
+
+Tos stop docker conatiner
+```
+docker stop <container_id>
