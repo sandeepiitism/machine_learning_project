@@ -13,3 +13,20 @@
 1. git add .
 2. git commit -m "text"
 3. git push origin main
+
+### Creating virtual environment:
+Creating conda environment
+```
+conda create -p venv python==3.7 -y
+```
+```
+conda activate venv/
+```
+OR 
+```
+conda activate venv
+```
+
+```
+pip install -r requirements.txt
+```
