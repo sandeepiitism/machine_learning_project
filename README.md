@@ -13,6 +13,7 @@
 1. git add .
 2. git commit -m "text"
 3. git push origin main
+4. git status
 
 ### Creating virtual environment:
 Creating conda environment
@@ -30,3 +31,5 @@ conda activate venv
 ```
 pip install -r requirements.txt
 ```
+
+### add the venv/ in .gitignore file
