@@ -7,3 +7,9 @@
 3. [VS Code IDE](https://code.visualstudio.com/download)
 4. [GIT cli](https://git-scm.com/downloads)
 5. [GIT Documentation](https://git-scm.com/docs/gittutorial)
+
+
+### Git Commands used:
+1. git add .
+2. git commit -m "text"
+3. git push origin main
