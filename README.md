@@ -39,6 +39,7 @@ pip install -r requirements.txt
 ### BUILD DOCKER IMAGE
 ```
 docker build -t <image_name>:<tagname> .
+ex: docker built -t ml-project:latest .
 ```
 > Note: Image name for docker must be lowercase
 
