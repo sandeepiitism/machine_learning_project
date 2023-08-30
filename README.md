@@ -62,3 +62,15 @@ docker ps
 Tos stop docker conatiner
 ```
 docker stop <container_id>
+
+
+## Project Steps:
+1. Create virtual environment.
+2. Create Github repository (readme, description, license, etc) and clone it in VCScode
+3. Add details in readme.md and create app.py, requirements.txt and setup.py
+4. Add docker and .dockerignore
+5. Add housing folder in main tree and add __init__.py folder in it.
+6. fill setup.py template install setup.py:
+```
+venv> python setup.py install
+```
